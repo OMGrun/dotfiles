@@ -1,0 +1,7 @@
+{
+    "initial_working_directory": "~",
+    "editor_theme": "Solarized Dark",
+    "posix_terminal_shell": "bash",
+    "source_with_echo": true,
+    "jobs_tab_visibility": "shown"
+}

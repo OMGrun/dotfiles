@@ -1,0 +1,10 @@
+theme = Gruvbox Dark
+font-family = JetBrains Mono Nerd Font
+font-size = 19
+background-opacity = 0.8
+background-blur-radius = 30
+macos-titlebar-style = hidden
+window-padding-y = 10
+window-padding-x = 10
+keybind = ctrl+shift+up=scroll_page_up
+keybind = ctrl+shift+down=scroll_page_down
