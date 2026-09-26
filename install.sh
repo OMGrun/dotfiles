@@ -12,4 +12,11 @@ for app in nvim ghostty aerospace; do
   ln -sfn "$PWD/config/$app" ~/.config/"$app"
 done
 
-echo "Done! Symlinks created."
+if command -v apt &>/dev/null; then
+    sudo apt update
+    sudo apt install -y build-essential git curl ripgrep fd-find neovim tmux
+    sudo ln -sf "$(which fdfind)" /usr/local/bin/fd 2>/dev/null || true
+    sudo apt install -y nodejs npm
+fi
+
+echo "Done, open nvim and wait for lazy to install everything."
